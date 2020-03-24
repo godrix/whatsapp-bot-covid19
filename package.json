@@ -1,0 +1,24 @@
+{
+  "name": "whatsapp-covid-19-bot",
+  "version": "1.0.0",
+  "description": "Bot para whatsapp que informa sobre o COVID-19",
+  "author": "Carlos G. Godri",
+  "license": "MIT",
+  "homepage": "https://github.com/godrix/whatsapp-bot-covid19#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/godrix/whatsapp-bot-covid19.git"
+  },
+  "bugs": {
+    "url": "https://github.com/godrix/whatsapp-bot-covid19/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start":"node ./src/services/covid-19.js & node index.js "
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.2.5"
+  }
+}
